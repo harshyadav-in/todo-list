@@ -1,0 +1,87 @@
+h2{
+    color: rgb(39, 1, 1);
+    top: 100px;
+    padding: 30px;
+}
+
+
+
+input{
+    height: 40px;
+    width: 40%;
+    padding-left: 45px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background: #dde1e7;
+    color: #595959;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px #BABECC,
+                inset -5px -5px 10px #ffffff73;
+}
+button{
+    
+     
+    background: #dde1e7;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #595959;
+    box-shadow: 1px 1px 2px #BABECC,
+               -2px -2px 5px #ffffff73;  
+}
+.back{
+    background-color: #29ccf5;
+    width: 600px;
+    min-height: 800px;
+    border-radius: 15px;
+    margin-left: 35%;
+    margin-top: 4%;
+    box-shadow: inset 2px 2px 5px #29c9ed,
+    inset -5px -5px 10px #06bfe9;
+}
+.task{
+    padding-bottom: 20px;
+}
+.task1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.todoval{
+    bottom: 20px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #595959;
+     
+}
+.todoed{
+   padding-bottom: 30px; 
+}
+.delete:hover{
+    background: radial-gradient(486px at 37.5% -17.2%, rgb(255, 2, 2) 0%, rgb(254, 78, 172) 90%);
+   
+}
+.save:hover{
+    background-color: #09c5f5;
+    
+}
+.edits:hover{
+    background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
+
+}
+.done:hover{
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
